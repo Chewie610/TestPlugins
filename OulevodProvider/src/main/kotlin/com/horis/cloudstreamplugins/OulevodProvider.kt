@@ -21,7 +21,7 @@ class OulevodProvider : MainAPI() {
     )
     override var lang = "zh"
 
-    override var mainUrl = "https://www.olevod.com/"
+    override var mainUrl = "https://www.olevod.com"
     override var name = "欧乐影院"
 
     override val hasMainPage = true
