@@ -1,0 +1,8 @@
+{
+    "name": "Chewie Repo",
+    "description": "Chinese Plugin Repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/Chewie610/TestPlugins/builds/plugins.json"
+    ]
+  }
