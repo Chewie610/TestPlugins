@@ -37,7 +37,7 @@ class NivodProvider : MainAPI() {
 
     override val hasMainPage = true
 
-    private val apiUrl = "https://s3.fsvod1.com"
+    private val apiUrl = "https://api.nbyy.cc"
     private val decryptInterceptor by lazy { DecryptInterceptor() }
     private val todayStr by lazy { SimpleDateFormat("yyyy-MM-dd").format(Date()) }
     private var oid = ""
