@@ -32,12 +32,12 @@ class NivodProvider : MainAPI() {
     )
     override var lang = "zh"
 
-    override var mainUrl = "https://www.nivod.cc"
+    override var mainUrl = "https://www.nbyy.cc"
     override var name = "泥视频"
 
     override val hasMainPage = true
 
-    private val apiUrl = "https://www.nivod.cc"
+    private val apiUrl = "https://s3.fsvod1.com"
     private val decryptInterceptor by lazy { DecryptInterceptor() }
     private val todayStr by lazy { SimpleDateFormat("yyyy-MM-dd").format(Date()) }
     private var oid = ""
